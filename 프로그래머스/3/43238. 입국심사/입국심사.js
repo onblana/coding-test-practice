@@ -12,3 +12,20 @@ function solution(n, times) {
   }
   return left;
 }
+
+// 테스트케이스 3/9만 통과되는 불완전한 코드
+// function solution(n, times) {
+//   let minute = 0;
+//   let t = times.slice(); // 배열 얕은복사
+//   while (n > 0) {
+//     for (let i = 0; i < t.length; ++i) {
+//       t[i] -= 1;
+//       if (t[i] == 0) {
+//         t[i] = times[i];
+//         n--;
+//       }
+//     }
+//     ++minute;
+//   }
+//   return minute;
+// }
