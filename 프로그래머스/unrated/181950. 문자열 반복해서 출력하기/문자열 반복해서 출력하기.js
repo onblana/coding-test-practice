@@ -11,4 +11,5 @@ const rl = readline.createInterface({
         --arr[1];
     }
     console.log(answer);
+    rl.close();
 });
