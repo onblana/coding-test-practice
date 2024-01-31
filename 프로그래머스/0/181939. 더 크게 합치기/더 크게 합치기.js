@@ -3,5 +3,5 @@ function solution(a, b) {
     const ba = Number(b + '' + a);
     
     if (ab >= ba) return ab;
-    if (ab < ba) return ba;
+    return ba;
 }
