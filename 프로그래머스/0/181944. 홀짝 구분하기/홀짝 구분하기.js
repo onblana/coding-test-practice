@@ -6,7 +6,7 @@ const rl = readline.createInterface({
 
 rl.on('line', function (line) {
     const n = Number(line);
-    if (n % 2 === 0) console.log(`${n} is even`);
-    if (n % 2 !== 0) console.log(`${n} is odd`);
+    console.log(n % 2 === 0 ? `${n} is even` : `${n} is odd`);
+    
     rl.close();
 });
