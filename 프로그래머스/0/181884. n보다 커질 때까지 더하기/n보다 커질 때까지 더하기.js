@@ -1,7 +1,7 @@
 function solution(numbers, n) {
-    let answer = 0;
-    for (let i = 0; answer <= n; i++) {
-        answer += numbers[i];
+    let sum = 0;
+    for (let i = 0; sum <= n; i++) {
+        sum += numbers[i];
     }
-    return answer;
+    return sum;
 }
