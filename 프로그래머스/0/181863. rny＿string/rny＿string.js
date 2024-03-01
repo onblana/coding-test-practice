@@ -5,5 +5,6 @@ function solution(rny_string) {
         temp[i] += 'rn';
     }
     
-    return temp.reduce((acc, cur) => acc + cur);
+    return temp.join('');
+    // return rny_string.replaceAll('m','rn'); 다른 방법
 }
