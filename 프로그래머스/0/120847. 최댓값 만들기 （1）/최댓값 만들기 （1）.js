@@ -1,4 +1,4 @@
 function solution(numbers) {
-    numbers.sort((a, b) => a - b);
-    return numbers.pop() * numbers.pop();
+    [x, y] = numbers.sort((a, b) => b - a);
+    return x * y;
 }
