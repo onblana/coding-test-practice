@@ -1,4 +1,1 @@
-function solution(my_string, n) {
-    const arr = [...my_string];
-    return arr.map(char => char.repeat(n)).join('');
-}
+const solution = (my_string, n) => [...my_string].map(char => char.repeat(n)).join('');
