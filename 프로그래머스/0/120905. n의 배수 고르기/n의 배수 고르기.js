@@ -1,5 +1,1 @@
-function solution(n, numlist) {
-    const answer = [];
-    numlist.forEach(num => num % n === 0 ? answer.push(num) : null);
-    return answer;
-}
+const solution = (n, numlist) => numlist.filter(num => num % n === 0);
