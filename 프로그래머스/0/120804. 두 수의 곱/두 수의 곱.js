@@ -1,1 +1,1 @@
-const solution = (a, b) => a * b;
+const solution = (a, b) => a * b
