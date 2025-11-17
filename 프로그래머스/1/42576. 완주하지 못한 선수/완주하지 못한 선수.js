@@ -1,7 +1,7 @@
 function solution(participant, completion) {
     const map = new Map();
 
-    for (let i = 0; i < completion.length; i++) {
+    for (let i = 0; i < completion.length; ++i) {
         const name = completion[i];
         if (!map.has(name)) {
             map.set(name, 1);
@@ -10,7 +10,7 @@ function solution(participant, completion) {
         }
     }
 
-    for (let i = 0; i < participant.length; i++) {
+    for (let i = 0; i < participant.length; ++i) {
         const name = participant[i];
 
         if (!map.has(name)) return name;
